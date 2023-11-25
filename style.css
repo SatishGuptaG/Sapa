@@ -1,0 +1,258 @@
+/* CSS for Index Start*/
+/* remove bullets point */
+ul.no-bullets{
+    list-style-type: none;
+}
+/* for orange color */
+span.color:hover,h6.color:hover{
+    color:rgb(255, 106, 0);
+  }
+  button.color{
+    background-color:rgb(255, 106, 0);
+  }
+  
+  a.navbar-brand:hover,button.pills:hover{
+    color: rgb(255, 106, 0);
+  }
+  i.fa-2xl,span.orange{
+    color: rgb(255, 106, 0);
+  }
+  i.fa-brands:hover{
+    color: rgb(255, 106, 0);
+  }
+  /* for button */
+  .circular-color-button {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: none;
+    text-align: center;
+    line-height: 50px;
+    font-size: 16px;
+    text-decoration: none;
+  }
+  span.color{
+    color: rgb(255, 106, 0);
+  }
+  p.star{
+    color: rgb(255, 106, 0);
+  }
+  /* CSS for Index End*/
+
+  /* CSS for List and List2 Start*/
+/* Price Section Start */
+  .wrapper{
+    width: 400px;
+    background: #fff;
+    border-radius: 10px;
+    padding: 20px 25px 40px;
+    box-shadow: 0 12px 35px rgba(0,0,0,0.1);
+  }
+  header h2{
+    font-size: 24px;
+    font-weight: 600;
+  }
+  header p{
+    margin-top: 5px;
+    font-size: 16px;
+  }
+  .price-input{
+    width: 100%;
+    display: flex;
+    margin: 30px 0 35px;
+  }
+  .price-input .field{
+    display: flex;
+    width: 100%;
+    height: 45px;
+    align-items: center;
+  }
+  .field input{
+    width: 100%;
+    height: 100%;
+    outline: none;
+    font-size: 19px;
+    margin-left: 12px;
+    border-radius: 5px;
+    text-align: center;
+    border: 1px solid #999;
+    -moz-appearance: textfield;
+  }
+  input[type="number"]::-webkit-outer-spin-button,
+  input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+  }
+  .price-input .separator{
+    width: 130px;
+    display: flex;
+    font-size: 19px;
+    align-items: center;
+    justify-content: center;
+  }
+  .slider{
+    height: 5px;
+    position: relative;
+    background: #ddd;
+    border-radius: 5px;
+  }
+  .slider .progress{
+    height: 100%;
+    left: 25%;
+    right: 25%;
+    position: absolute;
+    border-radius: 5px;
+    background: #17A2B8;
+  }
+  .range-input{
+    position: relative;
+  }
+  .range-input input{
+    position: absolute;
+    width: 100%;
+    height: 5px;
+    top: -5px;
+    background: none;
+    pointer-events: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+  }
+  input[type="range"]::-webkit-slider-thumb{
+    height: 17px;
+    width: 17px;
+    border-radius: 50%;
+    background: #17A2B8;
+    pointer-events: auto;
+    -webkit-appearance: none;
+    box-shadow: 0 0 6px rgba(0,0,0,0.05);
+  }
+  input[type="range"]::-moz-range-thumb{
+    height: 17px;
+    width: 17px;
+    border: none;
+    border-radius: 50%;
+    background: #17A2B8;
+    pointer-events: auto;
+    -moz-appearance: none;
+    box-shadow: 0 0 6px rgba(0,0,0,0.05);
+  }
+  /* Price Section End */
+
+  /* Product Color Option Section Start*/
+.color-options {
+  display: flex;
+  flex-direction: row;
+}
+.color-option {
+  border:10px;
+  width: 30px;
+  height: 30px;
+  margin: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease; /* Add a smooth transition effect for all properties */
+}
+
+.color-option:hover {
+  
+  transform: scale(0.8); /* Scale the button to 120% of its original size on hover */
+}
+/* Product Color Option Section End*/
+
+/* Product tags Section Start*/
+.white{
+ font-size: 13px;
+}
+
+button.position-relative:hover
+{
+  background-color: rgb(255, 106, 0);
+}
+/* Product tags Section End*/
+
+/* For Pagination Start */
+.pg:hover{
+  background-color: rgb(255, 106, 0);
+  color:white;
+}
+.default_list{
+  background-color: rgb(255, 106, 0);
+  color:white;
+}
+/* For Pagination End */
+
+/* ZOOM-IN AND ZOOM-OUT Section Start */
+.secondimg {
+  display: none;
+}
+.change:hover .secondimg{
+ display: block;
+
+}
+.change:hover .firstimg{
+ display: none;
+ opacity: 1;
+ visibility: visible;
+}
+/* ZOOM-IN AND ZOOM-OUT Section End */
+/* CSS for List and List2 End*/
+
+/* CSS for Detail Start*/
+/* For Customer Review */
+.review_color:hover{
+color:rgb(255, 162, 0)
+}
+a.line {
+  text-decoration: none;
+}
+i.bx {
+  flex-direction: row;
+}
+.box{
+  border: 1px solid; /* Border style */
+text-align: center;
+margin-left: 2px; /* Adjust as needed */
+width: 120px; /* Adjust as needed */
+height: 45px;
+}
+div.color{
+  background-color: rgb(255, 106, 0) ;
+}
+.cart{
+  background-color:black;
+}
+.cart:hover{
+background-color:rgb(255, 106, 0) ;
+}
+.add{
+  text-decoration: none;
+  color:#999
+}
+.add:hover{
+color:rgb(255, 106, 0) ;
+}
+.vertical{
+  flex-direction: column;
+}
+.bold {
+  font-weight: bold;
+  color: #333333;
+}
+.box1 {
+  box-sizing: border-box;
+  width: 50px; /* Adjust as needed */
+  height: 50px; /* Adjust as needed */
+  border: 1px solid #a49c9c; /* Adjust values as needed */
+  display: flex; /* or use another display property as needed */
+  justify-content: center; /* center the icon horizontally */
+  align-items: center; /* center the icon vertically */
+}
+.box2 {
+  box-sizing: border-box;
+  width: 350px; /* Adjust as needed */
+  height: 350px; /* Adjust as needed */
+  border: 1px solid #a49c9c; /* Adjust values as needed */
+  display: flex; /* or use another display property as needed */
+  justify-content: center; /* center the content horizontally */
+  align-items: center; /* center the content vertically */
+}
+
+/* CSS for Detail End*/
