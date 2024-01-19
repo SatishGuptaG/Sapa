@@ -34,7 +34,7 @@ span.color:hover,h6.color:hover{
   span.color{
     color: rgb(255, 106, 0);
   }
-  p.star{
+  .star{
     color: rgb(255, 106, 0);
   }
   /* CSS for Index End*/
@@ -234,7 +234,7 @@ color:rgb(255, 106, 0) ;
 }
 .bold {
   font-weight: bold;
-  color: #333333;
+  color: #000000;
 }
 .box1 {
   box-sizing: border-box;
@@ -245,14 +245,8 @@ color:rgb(255, 106, 0) ;
   justify-content: center; /* center the icon horizontally */
   align-items: center; /* center the icon vertically */
 }
-.box2 {
-  box-sizing: border-box;
-  width: 350px; /* Adjust as needed */
-  height: 350px; /* Adjust as needed */
-  border: 1px solid #a49c9c; /* Adjust values as needed */
-  display: flex; /* or use another display property as needed */
-  justify-content: center; /* center the content horizontally */
-  align-items: center; /* center the content vertically */
-}
+
+
+
 
 /* CSS for Detail End*/
